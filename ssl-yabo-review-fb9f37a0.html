@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>资料索引 · 关于 yabo</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background-color: #f7f4ed;
+            font-family: Georgia, "Times New Roman", serif;
+            color: #2d2a24;
+            line-height: 1.8;
+            padding: 2rem 1.2rem;
+        }
+        .page {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fefcf8;
+            padding: 3rem 2.2rem;
+            border-radius: 8px;
+            box-shadow: 0 6px 20px rgba(45, 42, 36, 0.04);
+        }
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            margin-bottom: 0.3rem;
+            color: #3f3a32;
+            border-left: 4px solid #b7a78b;
+            padding-left: 1.2rem;
+        }
+        .subhead {
+            font-size: 1rem;
+            color: #7d7568;
+            margin-top: -0.2rem;
+            margin-bottom: 2.2rem;
+            border-bottom: 1px solid #e5dfd4;
+            padding-bottom: 1rem;
+        }
+        .opening {
+            font-size: 1.1rem;
+            background: #f2efe8;
+            padding: 1.8rem 2rem;
+            border-radius: 6px;
+            margin-bottom: 2rem;
+            color: #38342d;
+        }
+        .opening p {
+            margin-bottom: 0.8rem;
+        }
+        .opening p:last-child {
+            margin-bottom: 0;
+        }
+        .features {
+            margin: 2.5rem 0;
+        }
+        .features h2 {
+            font-weight: 400;
+            font-size: 1.4rem;
+            color: #4f483e;
+            margin-bottom: 1.2rem;
+            border-bottom: 1px dashed #ccc3b3;
+            padding-bottom: 0.3rem;
+        }
+        .feature-item {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-start;
+            margin-bottom: 1.2rem;
+        }
+        .feature-item .num {
+            font-size: 1.6rem;
+            font-weight: 400;
+            color: #b7a78b;
+            min-width: 2rem;
+            line-height: 1.2;
+        }
+        .feature-item p {
+            margin: 0;
+            font-size: 1rem;
+        }
+        .feature-item strong {
+            font-weight: 600;
+            color: #3f3a32;
+        }
+        .quote-box {
+            background: #f9f5ef;
+            border-left: 5px solid #b7a78b;
+            padding: 1.5rem 2rem;
+            margin: 2.2rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .quote-box p {
+            font-style: italic;
+            color: #4d473c;
+            margin-bottom: 0.4rem;
+        }
+        .quote-box .attribution {
+            text-align: right;
+            font-style: normal;
+            font-size: 0.9rem;
+            color: #7f7566;
+        }
+        .closing {
+            margin-top: 2.8rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e0d8cc;
+            font-size: 1rem;
+            color: #4f483e;
+        }
+        .closing p {
+            margin-bottom: 1rem;
+        }
+        .closing a {
+            color: #6f5c3e;
+            text-decoration: none;
+            border-bottom: 1px dotted #b7a78b;
+            transition: border-color 0.2s;
+        }
+        .closing a:hover {
+            border-bottom: 1px solid #6f5c3e;
+        }
+        .faq-mini {
+            margin: 2rem 0 1.5rem;
+            background: #f6f2ea;
+            padding: 1.5rem 2rem;
+            border-radius: 8px;
+        }
+        .faq-mini h3 {
+            font-weight: 400;
+            font-size: 1.1rem;
+            color: #3f3a32;
+            margin-bottom: 0.8rem;
+        }
+        .faq-mini details {
+            margin-bottom: 0.5rem;
+            border-bottom: 1px solid #e2d9ce;
+            padding-bottom: 0.5rem;
+        }
+        .faq-mini details:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .faq-mini summary {
+            cursor: pointer;
+            font-weight: 500;
+            color: #4f483e;
+            padding: 0.2rem 0;
+        }
+        .faq-mini summary::-webkit-details-marker {
+            color: #b7a78b;
+        }
+        .faq-mini p {
+            margin-top: 0.4rem;
+            padding-left: 0.6rem;
+            font-size: 0.95rem;
+            color: #5b5348;
+        }
+        @media (max-width: 600px) {
+            body { padding: 1rem 0.8rem; }
+            .page { padding: 2rem 1.2rem; }
+            h1 { font-size: 1.7rem; padding-left: 0.8rem; }
+            .opening { padding: 1.2rem 1.2rem; }
+            .feature-item { gap: 0.6rem; }
+            .feature-item .num { min-width: 1.6rem; font-size: 1.3rem; }
+            .quote-box { padding: 1rem 1.2rem; }
+            .faq-mini { padding: 1rem 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+    <h1>yabo · 资料整理手记</h1>
+    <div class="subhead">从零碎线索到有序索引，一种温和的信息梳理方式</div>
+
+    <div class="opening">
+        <p>三月末的午后，整理书签时翻到几页旧笔记，上面潦草地写着同一个名字——<strong>yabo</strong>。起初只是零散记录，后来慢慢变成一整份按主题归类的资料夹。</p>
+        <p>并不是什么惊天动地的发现，更像日常里把散落的卡片收进同一个盒子。但当你需要回头查找某个细节时，有一份整理好的索引，总会踏实很多。</p>
+    </div>
+
+    <div class="features">
+        <h2>整理过程中注意到的几点</h2>
+        <div class="feature-item">
+            <span class="num">❶</span>
+            <p><strong>内容来源的多样性</strong> —— 信息往往分散在不同的页面和版本里，归档时养成标注来源的习惯，日后回溯会省去不少时间。</p>
+        </div>
+        <div class="feature-item">
+            <span class="num">❷</span>
+            <p><strong>命名与分类的取舍</strong> —— 同一个条目可能同时属于几个标签，不用追求完美分类，先记录下来，之后再慢慢调整结构。</p>
+        </div>
+        <div class="feature-item">
+            <span class="num">❸</span>
+            <p><strong>定期回顾与整合</strong> —— 资料不会自动整理，每隔一段时间重新翻阅、合并重复项、补充遗漏，整个过程其实也是一种温和的复习。</p>
+        </div>
+    </div>
+
+    <div class="quote-box">
+        <p>“我们收集的从来不只是数据，而是自己思考过的路径。整理索引，就是在给未来的自己画一张去往旧想法的地图。”</p>
+        <div class="attribution">—— 摘自某页泛黄的笔记本</div>
+    </div>
+
+    <div class="faq-mini">
+        <h3>索引时可能遇到的几个小问题</h3>
+        <details>
+            <summary>找不到最初的页面怎么办？</summary>
+            <p>可以试试从记忆中的关键词、URL 片段或浏览器历史里追溯。如果实在无法复原，就先记录当时的摘录内容，并注明“待确认来源”。</p>
+        </details>
+        <details>
+            <summary>收集的资料太多，如何快速定位？</summary>
+            <p>推荐建立简单目录或使用标签系统。不必一步到位，先按大主题粗分，后续再细分。重点是可检索，而非美观。</p>
+        </details>
+        <details>
+            <summary>是否需要保留所有历史版本？</summary>
+            <p>视个人习惯而定。如果资料更新频繁，保留一两个关键版本即可；如果内容稳定，一份清晰的最终版通常就够用。</p>
+        </details>
+    </div>
+
+    <div class="closing">
+        <p>回到最初的那份笔记。经过几轮补充和删改，原本杂乱的条目逐渐有了自己的位置。现在每当需要参考时，只需要打开那个标注着 <a href="https://ssl-yabo.com">yabo</a> 的文件夹，就能顺着索引找到之前留意过的内容。</p>
+        <p>整理资料从来不是一劳永逸的事，但每一次梳理，都是对自己的思路重新确认。或许这就是索引存在的意义——不是为了收藏，而是为了需要时能从容地想起。</p>
+    </div>
+</div>
+</body>
+</html>
